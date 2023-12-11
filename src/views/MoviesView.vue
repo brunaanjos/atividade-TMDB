@@ -84,7 +84,7 @@ onMounted(async () => {
 }
 
 .genre-item {
-  background-color: #387250;
+  background-color: #721ea7;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
@@ -92,8 +92,8 @@ onMounted(async () => {
 
 .genre-item:hover {
   cursor: pointer;
-  background-color: #4e9e5f;
-  box-shadow: 0 0 0.5rem #387250;
+  background-color: #3b1a73;
+  box-shadow: 0 0 0.5rem #213880;
 }
 
 .movie-list {
@@ -147,7 +147,7 @@ onMounted(async () => {
 }
 
 .movie-genres span {
-  background-color: #748708;
+  background-color: #084587;
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   color: #fff;
@@ -157,17 +157,17 @@ onMounted(async () => {
 
 .movie-genres span:hover {
   cursor: pointer;
-  background-color: #455a08;
-  box-shadow: 0 0 0.5rem #748708;
+  background-color: #0e3eb6;
+  box-shadow: 0 0 0.5rem #710fcd;
 }
 
 .active {
-  background-color: #67b086;
+  background-color: #8967b0;
   font-weight: bolder;
 }
 
 .movie-genres span.active {
-  background-color: #abc322;
+  background-color: #2262c3;
   color: #000;
   font-weight: bolder;
 }

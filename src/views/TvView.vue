@@ -80,7 +80,7 @@ const listTV = async (genreId) => {
   }
   
   .genre-item {
-    background-color: #5d6424;
+    background-color: #3b23a8;
     border-radius: 1rem;
     padding: 0.5rem 1rem;
     align-self: center;
@@ -91,8 +91,8 @@ const listTV = async (genreId) => {
   
   .genre-item:hover {
     cursor: pointer;
-    background-color: #7d8a2e;
-    box-shadow: 0 0 0.5rem #5d6424;
+    background-color: #42197b;
+    box-shadow: 0 0 0.5rem #262498;
   }
   .tv-list {
   display: flex;
@@ -135,7 +135,7 @@ const listTV = async (genreId) => {
 }
 
 .tv-genres span {
-  background-color: #748708;
+  background-color: #0c9ac5;
   border-radius: 0.5rem;
   padding: 0.2rem 0.5rem;
   color: #fff;
@@ -145,8 +145,8 @@ const listTV = async (genreId) => {
 
 .tv-genres span:hover {
   cursor: pointer;
-  background-color: #455a08;
-  box-shadow: 0 0 0.5rem #748708;
+  background-color: #1e49ca;
+  box-shadow: 0 0 0.5rem #081b87;
 }
 
 </style>
